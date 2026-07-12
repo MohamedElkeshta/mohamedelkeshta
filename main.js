@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('hr-img-2').src     = 'img/Hr3.jpeg';
   document.getElementById('exc-img-0').src    = 'img/Excel1.jpeg';
   document.getElementById('exc-img-1').src    = 'img/Excel2.jpeg';
-  document.getElementById('cv-link').href     = 'img/CV.pdf';
+  document.getElementById('cv-link').href     = 'img/Cv.pdf';
 
   const obs = new IntersectionObserver(
     e => e.forEach(el => { if (el.isIntersecting) el.target.classList.add('on'); }),
