@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('main-photo').src   = 'img/photo.jpg';
-  document.getElementById('hr-card-img').src  = 'img/hr1.jpg';
-  document.getElementById('exc-card-img').src = 'img/excel1.jpg';
-  document.getElementById('hr-img-0').src     = 'img/hr1.jpg';
-  document.getElementById('hr-img-1').src     = 'img/hr2.jpg';
-  document.getElementById('hr-img-2').src     = 'img/hr3.jpg';
-  document.getElementById('exc-img-0').src    = 'img/excel1.jpg';
-  document.getElementById('exc-img-1').src    = 'img/excel2.jpg';
+  document.getElementById('main-photo').src   = 'img/Photo.jpeg';
+  document.getElementById('hr-card-img').src  = 'img/Hr1.jpeg';
+  document.getElementById('exc-card-img').src = 'img/Excel1.jpeg';
+  document.getElementById('hr-img-0').src     = 'img/Hr1.jpeg';
+  document.getElementById('hr-img-1').src     = 'img/Hr2.jpeg';
+  document.getElementById('hr-img-2').src     = 'img/Hr3.jpeg';
+  document.getElementById('exc-img-0').src    = 'img/Excel1.jpeg';
+  document.getElementById('exc-img-1').src    = 'img/Excel2.jpeg';
   document.getElementById('cv-link').href     = 'img/CV.pdf';
 
   const obs = new IntersectionObserver(
