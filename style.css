@@ -118,8 +118,8 @@ section{padding:5rem 5%}
 .mbtn-disabled{background:transparent;color:#6e7681;padding:.65rem 1.4rem;border-radius:8px;font-weight:600;font-size:.85rem;border:1px solid #30363d;cursor:not-allowed;opacity:.6}
 
 .certs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
-.ccard{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.2rem;display:flex;gap:.8rem;align-items:flex-start;transition:border .2s}
-.ccard:hover{border-color:#58a6ff}
+.ccard{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.2rem;display:flex;gap:.8rem;align-items:flex-start;transition:all .2s;text-decoration:none;cursor:pointer}
+.ccard:hover{border-color:#58a6ff;transform:translateY(-3px);box-shadow:0 10px 25px rgba(88,166,255,.08)}
 .cicon{width:40px;height:40px;border-radius:8px;background:rgba(88,166,255,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.2rem}
 .cinfo h4{font-size:.85rem;font-weight:600;color:#f0f6fc;margin-bottom:.18rem}
 .cinfo p{font-size:.76rem;color:#8b949e}
